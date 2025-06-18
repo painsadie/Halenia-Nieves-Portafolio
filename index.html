@@ -1,61 +1,75 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Portafolio de Halenia Nieves</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1, h2 { color: #2c3e50; }
+        .section { margin-bottom: 40px; }
+        .proyecto { margin-bottom: 20px; }
+        .btn { display: inline-block; margin: 5px 0; padding: 6px 12px; background: #3498db; color: white; text-decoration: none; border-radius: 4px; }
+        .btn:hover { background: #2980b9; }
+    </style>
 </head>
 <body>
-    <header>
+
+    <header class="section">
         <h1>Halenia Nieves</h1>
-        <p>Desarrolladora Shopify · Lima, Perú</p>
+        <p>Desarrolladora Shopify especializada en temas personalizados, apps embebidas y tiendas.</p>
     </header>
 
-    <section id="proyectos">
-        <h2>🛠 Proyectos Reales</h2>
+    <section class="section" id="contacto">
+        <h2>📄 Contacto</h2>
+        <p>Email: <a href="mailto:halenianievesss@gmail.com">halenianievesss@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/51987278119">+51 987278119</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/halenia-nieves-salcedo-landa" target="_blank">Halenia Nieves</a></p>
+    </section>
+
+    <section class="section" id="proyectos">
+        <h2>🛠️ Proyectos Reales</h2>
 
         <div class="proyecto">
             <h3>1. Tema Shopify personalizado</h3>
             <p><strong>Tecnologías:</strong> Liquid, Sass, Shopify CLI</p>
-            <p><strong>Demo:</strong>
-                <a href="https://nievx.myshopify.com" target="_blank" rel="noopener noreferrer">Ver tienda</a>
+            <p><strong>Repositorio:</strong> 
+                <a href="https://github.com/painsadie/tema-shopify" class="btn" target="_blank">Ver en GitHub</a>
+            </p>
+            <p><strong>Demo:</strong> 
+                <a href="https://nievx.myshopify.com" class="btn" target="_blank">Ver tienda</a> 
                 <span>(Contraseña: halenia)</span>
             </p>
-            <p>Este demo muestra un tema personalizado de Shopify con diseño responsive, banners promocionales y optimización SEO.</p>
+            <p>Tema responsive con sección “promo-banner” y optimización SEO.</p>
         </div>
 
         <div class="proyecto">
             <h3>2. Extracción de libro con DRM desde Google Play Books</h3>
             <p><strong>Tecnologías:</strong> Adobe Digital Editions, Calibre, DeDRM</p>
-            <p><strong>Demo:</strong>
-                📘 <a href="https://drive.google.com/file/d/1T8OrgIpK9UTcJAWMj6Zlp29qMrhEDJPx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver PDF</a> |
-                📗 <a href="https://drive.google.com/file/d/1fH-EilyuB3gIBmgQLrROWUtRc3eWptZI/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver EPUB</a>
+            <p><strong>Demo:</strong> 
+                📘 <a href="https://drive.google.com/file/d/1T8OrgIpK9UTcJAWMj6Zlp29qMrhEDJPx/view?usp=sharing" class="btn" target="_blank">Ver PDF</a> 
+                📗 <a href="https://drive.google.com/file/d/1fH-EilyuB3gIBmgQLrROWUtRc3eWptZI/view?usp=sharing" class="btn" target="_blank">Ver EPUB</a>
             </p>
-            <p>Proceso técnico para liberar un libro cifrado y convertirlo a formatos accesibles. El demo incluye enlaces al PDF y EPUB generados tras la extracción.</p>
+            <p>Proceso técnico para liberar un libro cifrado y convertirlo a formatos accesibles.</p>
         </div>
 
         <div class="proyecto">
             <h3>3. Buscador de usuarios de Discord</h3>
             <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Render</p>
-            <p><strong>Repositorio:</strong>
-                <a href="https://github.com/painsadie/painsadie" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+            <p><strong>Repositorio:</strong> 
+                <a href="https://github.com/painsadie/painsadie" class="btn" target="_blank">Ver en GitHub</a>
             </p>
-            <p><strong>Demo:</strong>
-                <a href="https://painsadie.onrender.com/" target="_blank" rel="noopener noreferrer">Probar buscador</a>
+            <p><strong>Demo:</strong> 
+                <a href="https://painsadie.onrender.com/" class="btn" target="_blank">Probar buscador</a>
             </p>
-            <p>Aplicación web desplegada en Render que permite buscar usuarios de Discord ingresando su ID. Ideal para pruebas de integración con APIs de Discord o visualización de perfiles básicos.</p>
+            <p>Aplicación web que permite buscar usuarios de Discord ingresando su ID.</p>
         </div>
     </section>
 
-    <section id="repositorio-portafolio">
+    <section class="section" id="repositorio-portafolio">
         <h2>📁 Repositorio del Portafolio</h2>
-        <p>Este es el repositorio que contiene el código fuente de esta página de portafolio:</p>
-        <p><a href="https://github.com/painsadie/Halenia-Nieves-Portafolio" target="_blank" rel="noopener noreferrer">https://github.com/painsadie/Halenia-Nieves-Portafolio</a></p>
+        <p>Este sitio web está construido con HTML y CSS, y su código fuente está disponible en GitHub:</p>
+        <a href="https://github.com/painsadie/Halenia-Nieves-Portafolio" class="btn" target="_blank">Ver repositorio del portafolio</a>
     </section>
 
-    <footer>
-        <p>© 2024 Halenia Nieves</p>
-    </footer>
 </body>
 </html>
